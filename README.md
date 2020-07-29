@@ -1,6 +1,8 @@
 # Realtime Playground
 
-DEMO: [![Netlify Status](https://api.netlify.com/api/v1/badges/46f5f49d-47d7-413a-94d1-3c49206813ff/deploy-status)](https://app.netlify.com/sites/compassionate-archimedes-076b7f/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/83047a3a-d041-4dab-8418-341475d9c2d2/deploy-status)](https://app.netlify.com/sites/lucid-wilson-eae3e8/deploys)
+
+**[DEMO](https://realtime-playground.netlify.app/)**
 
 ## 사용 기술/개념
 - Typescript
