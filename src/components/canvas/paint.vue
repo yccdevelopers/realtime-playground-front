@@ -3,7 +3,6 @@
     <v-stage ref="stage" :config="configKonva">
       <v-layer ref="layer"></v-layer>
     </v-stage>
-    <v-btn @click="test">click</v-btn>
   </div>
 </template>
 
@@ -47,29 +46,6 @@ export default class Paint extends Vue {
     this.$store.dispatch('setStage', this.stage);
     this.$store.dispatch('setLayer', this.layer);
     this.setWheelZoom(this.stage);
-    const circle = new Konva.Circle({
-      x: this.stage.width() / 2,
-      y: this.stage.height() / 2,
-      radius: 70,
-      fill: 'red',
-      stroke: 'black',
-      strokeWidth: 4,
-      draggable: true,
-    });
-
-    const circle2 = new Konva.Circle({
-      x: this.stage.width() / 2,
-      y: this.stage.height() / 2,
-      radius: 70,
-      fill: 'black',
-      stroke: 'black',
-      strokeWidth: 4,
-      draggable: true,
-    });
-
-    // add the shape to the layer
-    this.layer.add(circle);
-    this.layer.add(circle2);
   }
 
   /******************************************************************
@@ -112,11 +88,6 @@ export default class Paint extends Vue {
       stage.position(newPos);
       stage.batchDraw();
     });
-  }
-  test() {
-    console.log(this.$store.state.layer);
-    const lines = this.stage.find('Line');
-    console.log(lines);
   }
 }
 </script>
