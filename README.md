@@ -1,6 +1,6 @@
 # Realtime Playground
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/83047a3a-d041-4dab-8418-341475d9c2d2/deploy-status)](https://app.netlify.com/sites/lucid-wilson-eae3e8/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/411fd167-8a38-4a70-a107-f43c1d5e7879/deploy-status)](https://app.netlify.com/sites/realtimeplayground/deploys)
 
 **[DEMO](https://realtime-playground.netlify.app/)**
 
