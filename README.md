@@ -1,5 +1,7 @@
 # Realtime Playground
 
+DEMO: [![Netlify Status](https://api.netlify.com/api/v1/badges/46f5f49d-47d7-413a-94d1-3c49206813ff/deploy-status)](https://app.netlify.com/sites/compassionate-archimedes-076b7f/deploys)
+
 ## 사용 기술/개념
 - Typescript
 - Vue
